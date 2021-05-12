@@ -2,16 +2,19 @@
 #include "voiture_elegoo.h"
 
 void loop() {
-  avant(100);
+  avant(150);
   int da = distance_devant();
   if (da <= 300) {
     avant(0);
     int dd = distance_droite();
     int dg = distance_gauche();
-    if ( dd > dg) {
-      droite(100);
+    if ( dd >= dg) {
+      droite(150);
       }
-    else gauche(100);
+    else if ( dg >= de) {
+      gauche(150);
+    }
+    else arriere(150);
     }
   
 }
