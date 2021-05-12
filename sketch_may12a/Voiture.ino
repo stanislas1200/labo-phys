@@ -11,7 +11,7 @@ void loop() {
     if ( dd >= dg) {
       droite(150);
       }
-    else if ( dg >= de) {
+    else if ( dg >= dd) {
       gauche(150);
     }
     else arriere(150);
