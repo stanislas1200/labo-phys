@@ -15,6 +15,7 @@ void loop() {
     if (dd <= 300 && dg <= 300) {
       arriere(200);
       delay(2000);
+      arriere(0);
       
       dd = distance_droite();
       dg = distance_gauche();
