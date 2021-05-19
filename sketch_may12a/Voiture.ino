@@ -1,8 +1,7 @@
 #include "voiture_elegoo.h"
-int start = 0;
 
 void loop() {
-  avant(255);
+  avant(155);
 
   float da = distance_devant();
 
@@ -21,14 +20,14 @@ void loop() {
       dg = distance_gauche();
       
       if ( dd >= dg) {
-        droite(255);
+        droite(155);
       }
-      else gauche(255);
+      else gauche(155);
     }
     else if ( dd >= dg) {
       droite(255);
     }
-    else gauche(255);
+    else gauche(155);
     delay(1000);
   }
 }
