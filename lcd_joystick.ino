@@ -1,5 +1,4 @@
-//www.YouTube.com/Electronics is Fun//
-//Mohd Sohail//
+
 
 #include <LiquidCrystal.h>
 
