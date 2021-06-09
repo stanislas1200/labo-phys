@@ -1,4 +1,4 @@
-// WIRE CONNECTIONS
+/* WIRE CONNECTIONS
 
 LCD   to    Arduino
 
@@ -34,7 +34,7 @@ GND                   GND
 
 X                          2
 
-//
+*/
 
 #include <LiquidCrystal.h>
 
