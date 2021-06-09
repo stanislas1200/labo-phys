@@ -1,4 +1,40 @@
+// WIRE CONNECTIONS
 
+LCD   to    Arduino
+
+Vss               GND
+
+Vdd               +5v
+
+Vo                 pot middle leg
+
+Rs                    11
+
+RW                   GND
+
+E                       9
+
+D4                    6
+
+D5                    5
+
+D6                    4
+
+D7                    3
+
+A                      one end with res to othr end with pot & to +5v
+
+K                      secnd end of pot and to GND that end
+
+Joystick  to    Arduino
+
+Vcc                    +5v
+
+GND                   GND
+
+X                          2
+
+//
 
 #include <LiquidCrystal.h>
 
