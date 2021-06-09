@@ -6,7 +6,7 @@ Vss               GND
 
 Vdd               +5v
 
-Vo                 pot middle leg
+Vo                 pot middle leg contraste potentiomètre/ full gnd
 
 Rs                    11
 
